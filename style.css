@@ -66,9 +66,33 @@ header>aside{
     height: 250px;
     width: 350px;
 }
-.box2>aside{
+.box2>aside{ 
     background-color: palevioletred;
     border: 1px dashed;
     height: 250px;
-    width: 200px;
+    width: 220px;
 }
+
+/*end box2*/
+
+.box3{
+    background-color: lightgray;
+    display:flex;
+    padding: 15px 0px;
+    justify-content: center;
+}
+.box3>aside{
+    background-color: palevioletred;
+    border: 1px dashed;
+    height: 250px;
+    width: 220px;
+}
+
+.box3>main{
+    border: 1px dashed;
+    background-color: blue;
+    height: 250px;
+    width: 350px;
+}
+
+
