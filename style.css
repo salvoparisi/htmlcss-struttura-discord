@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug header{
+    background-color: aqua;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+header>main{
+    background-color: tan;
+    border: 1px dashed;
+    padding: 0px 20%;
+}
+
+header>nav{
+    background-color: tan;
+    border: 1px dashed;
+    padding-right: 10%;
+}
+
+header>aside{
+    background-color: tan;
+    border: 1px dashed;
+    padding-left: 10%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
