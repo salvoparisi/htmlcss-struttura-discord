@@ -87,7 +87,6 @@ header>aside{
     height: 250px;
     width: 220px;
 }
-
 .box3>main{
     border: 1px dashed;
     background-color: blue;
@@ -95,4 +94,24 @@ header>aside{
     width: 350px;
 }
 
+/*end box3*/
 
+.box4{
+    display:flex;
+    padding: 15px 0px;
+    justify-content: center;
+}        
+.box4>main{
+    border: 1px dashed;
+    background-color: blue;
+    height: 250px;
+    width: 350px;
+}
+.box4>aside{
+    background-color: palevioletred;
+    border: 1px dashed;
+    height: 250px;
+    width: 220px;
+}
+
+/*end box4*/
