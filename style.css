@@ -154,3 +154,29 @@ header>aside{
 }
 
 /*end box6*/
+
+footer{
+    background-color: rgb(34, 34, 34);
+    border-top: solid white 1px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+section{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    width: 570px;
+    border: dashed 1px;
+    padding: 10px 0;
+}
+section>div{
+    background-color: pink;
+    border: dashed 1px;
+}
+
+button{
+    background-color: pink;
+    border: dashed 1px;
+}
